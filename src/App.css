@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Staatliches&display=swap');
+*{
+  /* transition: 0.5s; */
+}
+body{
+  font-family: 'Roboto', sans-serif !important;
+  background: #FAFAFA !important;
+ 
+}
+*:focus-visible {
+  outline:none !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.sidebar {
+  background-color: red;
+}
+.chart_ui {
+  padding: 50px 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.left{
+  padding-top: 149px;
+  padding-left: 130px;
+  background-color: rgba(255,255,255,255);
+}
+
+.left_bar {
+  background: #fff;
+  padding: 40px 30px;
+  box-shadow: 1px 2px 8px #0000000d;
+}
+
+.left_bar h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.iconslist {
+ 
+  margin-right: 15px;
+  padding-top: 0;
+
+}
+
+.list-insights {
+  display: flex;
+  margin-top: 20px;
+}
+
+.iconslist svg.icons {
+  color: #333333;
+  font-size: 25px;
+}
+
+.contant_lits p {
+  color: #727070;
+  font-size: 14px;
+}
+.contant_lits h5 {
+  color: #333333;
+  font-size: 16px;
+}
+
+.contant_lits button {
+  background: transparent;
+  border: 1px solid #54CADA;
+  color: #54CADA;
+  font-size: 14px;
+  text-transform: capitalize;
+  padding: 5px 11px;
+  border-radius: 5px;
+}
+.wrapper {
+  padding: 20px 0;
+}
+
+.title h1 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000;
+}
+
+.actionbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button.my-btn.btn.btn-outline-info svg {
+  margin: 0 4px;
+  font-size: 16px;
+}
+button.my-btn.btn.btn-outline-info {
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 7px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.tabliating ul li+li {
+  border-left: 2px solid #D8D8D8;
+}
+.tabliating ul {
+  padding-left: 0;
+  text-align: center;
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.tabliating ul li {
+  padding: 0 15px;
+}
+.tabliating ul li a {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+
+.active a{
+  color: #57AAC4;
+}
+
+.active a {
+  color: #53CADA !important;
+  font-weight: 600;
+}
+
+.iconsShared a {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #53CADA !important;
+  border: 1px solid #53CADA !important;
+  margin-left: 7px;
+  border-radius: 50px;
+}
+
+
+
+.checkstatus {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.form-checkbox label {
+  margin-bottom: 0;
+  margin-left: 6px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #8f8f8f;
+  font-weight: 500;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
