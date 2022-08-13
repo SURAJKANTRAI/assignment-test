@@ -1,8 +1,4 @@
 
-![image](https://user-images.githubusercontent.com/84901528/184476010-878251e4-57f5-41d7-ac16-6773dff6ac56.png)
-
-
-
 
 Project
 
@@ -30,3 +26,5 @@ node version : v16.16.0
 
 npm version : 8.11.0 
 
+
+![image](https://user-images.githubusercontent.com/84901528/184476010-878251e4-57f5-41d7-ac16-6773dff6ac56.png)
